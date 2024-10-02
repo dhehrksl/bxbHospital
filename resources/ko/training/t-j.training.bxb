@@ -1,0 +1,12 @@
+train (t-jrb8e97k64itgry0ec2zlvehe) {
+  utterance ("[g:ResultHostpitalList] (중랑구)[v:geo.SearchTerm] (한의원)[v:HospitalDiv:han]")
+  last-modified (1690514146059)
+}
+train (t-jig79xjm4pjsaa1g7wbju6ggz) {
+  utterance ("[g:ResultHostpitalList] (춘천시)[v:geo.SearchTerm] (근처)[v:Near:Near] (병원)[v:HospitalDiv:one] 알려줘")
+  last-modified (1690858315857)
+}
+train (t-jz8yz2o1ysw2japmw1t7gnbu5) {
+  utterance ("[g:ResultHostpitalList] (금천구)[v:geo.SearchTerm] (근처)[v:Near:Near]의 모든 (종합병원)[v:HospitalDiv:jong]들 전부 다 찾아주라")
+  last-modified (1693989674146)
+}

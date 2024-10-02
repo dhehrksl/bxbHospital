@@ -1,0 +1,120 @@
+structure (ResultHostpitalList) {
+  description ("근처 병원")
+  
+  property (locationName) {
+    type (LocationName)
+    min(Optional) max(One)
+  }
+  property (Firstaddress) {
+    type (Firstaddress)
+    min(Optional) max(One)
+  }
+  property (HospitalPoint) {
+    type (HospitalPoint)
+    min (Required) max (One)
+  }
+  property(HospitalName){
+    type(HospitalName)
+    min(Required) max(One)
+  }
+  property (HospitalDivs){
+    type (HospitalDivs)
+    min (Required)max (One)
+  }
+  property (DutyTel1){
+    type (DutyTel1)
+    min (Required)max (One)
+  }
+  property (Info){
+    type (Info)
+    min (Optional) max (One)
+  }
+  property (Namedlocation){
+    type (Namedlocation)
+    min (Optional) max (One)
+  }
+  property (DutyTime1c){
+    type (DutyTime1c)
+    min (Optional) max (One)
+  }
+    property (DutyTime2c){
+    type (DutyTime2c)
+    min (Optional) max (One)
+  }
+    property (DutyTime3c){
+    type (DutyTime3c)
+    min (Optional) max (One)
+  }
+    property (DutyTime4c){
+    type (DutyTime4c)
+    min (Optional) max (One)
+  }
+    property (DutyTime5c){
+    type (DutyTime5c)
+    min (Optional) max (One)
+  }
+    property (DutyTime6c){
+    type (DutyTime6c)
+    min (Optional) max (One)
+  }
+    property (DutyTime7c){
+    type (DutyTime7c)
+    min (Optional) max (One)
+  }
+    property (DutyTime8c){
+    type (DutyTime8c)
+    min (Optional) max (One)
+  }
+    property (DutyTime1s){
+    type (DutyTime1s)
+    min (Optional) max (One)
+  }
+    property (DutyTime2s){
+    type (DutyTime2s)
+    min (Optional) max (One)
+  }
+    property (DutyTime3s){
+    type (DutyTime3s)
+    min (Optional) max (One)
+  }
+    property (DutyTime4s){
+    type (DutyTime4s)
+    min (Optional) max (One)
+  }
+    property (DutyTime5s){
+    type (DutyTime5s)
+    min (Optional) max (One)
+  }
+    property (DutyTime6s){
+    type (DutyTime6s)
+    min (Optional) max (One)
+  }
+    property (DutyTime7s){
+    type (DutyTime7s)
+    min (Optional) max (One)
+  }
+    property (DutyTime8s){
+    type (DutyTime8s)
+    min (Optional) max (One)
+  }
+  property (HospitalAddr){
+    type (HospitalAddr)
+    min (Required) max (One)
+  }
+  property (Nears){
+    type (Nears)
+    min (Optional)max (One)
+  }
+  property (Near){
+    type (Near)
+    min (Optional)max (One)
+  }
+  property (Maindistance){
+    type (Maindistance)
+    min (Optional)max (One)
+  }
+  property (HospitalSelect){
+    type (HospitalSelect)
+    min (Optional)max (One)
+  }
+}

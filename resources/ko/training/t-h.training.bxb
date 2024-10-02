@@ -1,0 +1,12 @@
+train (t-h14eajw08k5gj39x2y6bny3qi) {
+  utterance ("[g:ResultHostpitalList] (도봉구)[v:geo.SearchTerm] (근처)[v:Near:Near]")
+  last-modified (1690521276137)
+}
+train (t-hajv6xso83js4lpyk3asnjne6) {
+  utterance ("[g:ResultHostpitalList] (노원구)[v:geo.SearchTerm] 알아봐줘")
+  last-modified (1690951906813)
+}
+train (t-hkpdbrnhd7euy4wio922j7sz3) {
+  utterance ("[g:ResultHostpitalList] (서대문구)[v:geo.SearchTerm]쪽 알아봐줘")
+  last-modified (1690952008418)
+}

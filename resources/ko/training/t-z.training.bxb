@@ -1,0 +1,28 @@
+train (t-zwn686hj4vlgkf7ar33weyjbx) {
+  utterance ("[g:ResultHostpitalList] (중랑구)[v:geo.SearchTerm] (치과)[v:HospitalDiv:ci] 어디지")
+  last-modified (1690521920908)
+}
+train (t-z2h97js0xg8bi5pdto8lo01fs) {
+  utterance ("[g:ResultHostpitalList] (강남구)[v:geo.SearchTerm] (근처)[v:Near:Near]")
+  last-modified (1691136138940)
+}
+train (t-zv8x42ay08vmu8zj0sx8fjj38) {
+  utterance ("[g:ResultHostpitalList] (보령시)[v:geo.SearchTerm]의 전체 (한의원)[v:HospitalDiv:han] 보여줄래")
+  last-modified (1693989123727)
+}
+train (t-z7l1n96xxahp152dnwtbcze81) {
+  utterance ("[g:ResultHostpitalList] (김포시)[v:geo.SearchTerm]에서 (주변)[v:Near:Near] (치과)[v:HospitalDiv:ci] 보고싶어")
+  last-modified (1693989162372)
+}
+train (t-zk6dtqqwe3uxgibd23mv4ndr2) {
+  utterance ("[g:ResultHostpitalList] (금천구)[v:geo.SearchTerm]에서 (내 근처)[v:Near:Near]의 모든 (요양병원)[v:HospitalDiv:yo]들 전부 다 찾고싶어")
+  last-modified (1693989891771)
+}
+train (t-zl02eibjlhvkmi0ueoi5sew95) {
+  utterance ("[g:ResultHostpitalList] (원주시)[v:geo.SearchTerm]의 (근처)[v:Near:Near] (병원)[v:HospitalDiv:one]들 보여줘")
+  last-modified (1694054688974)
+}
+train (t-zbe9kd6hf8yy3idvky3zxz38s) {
+  utterance ("[g:ResultHostpitalList] (상당구)[v:geo.SearchTerm]의 (한의원)[v:HospitalDiv:han] 보고싶어")
+  last-modified (1694054916742)
+}

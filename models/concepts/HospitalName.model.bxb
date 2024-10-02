@@ -1,0 +1,3 @@
+name (HospitalName) {
+  description ("병원 이름")
+}

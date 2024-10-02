@@ -1,0 +1,4 @@
+structure (HospitalPoint) {
+  description ("병원위치")
+  role-of (geo.GeoPoint)
+}

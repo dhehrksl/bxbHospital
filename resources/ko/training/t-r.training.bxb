@@ -1,0 +1,20 @@
+train (t-roo5ka5uh7wl1fbji5k2wvnq8) {
+  utterance ("[g:ResultHostpitalList] (성북구)[v:geo.SearchTerm]")
+  last-modified (1690859291043)
+}
+train (t-rok949dxli84u9vn02e6vzrsk) {
+  utterance ("[g:ResultHostpitalList] (마포구)[v:geo.SearchTerm]에 위치한 (병원)[v:HospitalDiv:one] 알려줘")
+  last-modified (1692337595348)
+}
+train (t-rsyju1j25h7xz90kbyp13iy0k) {
+  utterance ("[g:ResultHostpitalList] (천안시)[v:geo.SearchTerm]의 (근방)[v:Near:Near] 있는 전체 (한의원)[v:HospitalDiv:han] 전부 다 알려주라")
+  last-modified (1693989192168)
+}
+train (t-r7m3pdiw74fi0ywkdgamfk1ej) {
+  utterance ("[g:ResultHostpitalList] (영도구)[v:geo.SearchTerm]의 모든 (치과)[v:HospitalDiv:ci]들은")
+  last-modified (1693990042719)
+}
+train (t-rx5pugjbnstrrci4zvzepchas) {
+  utterance ("[g:ResultHostpitalList] (병원)[v:geo.SearchTerm]들 다 볼래")
+  last-modified (1694056784491)
+}

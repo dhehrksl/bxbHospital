@@ -1,0 +1,12 @@
+train (t-50lhfwt4857g623avqqksc5vc) {
+  utterance ("[g:ResultHostpitalList] (수영구)[v:geo.SearchTerm] (병원)[v:HospitalDiv:one] 알려줄래")
+  last-modified (1690780698584)
+}
+train (t-55nz7xqk0mwy4wgvvonj4btg9) {
+  utterance ("[g:ResultHostpitalList] (중랑구)[v:geo.SearchTerm]에 있는 전체 (한의원)[v:HospitalDiv:han] 알려줘")
+  last-modified (1693989123727)
+}
+train (t-5vyy1qb2qrl15g8qni2z6xcyx) {
+  utterance ("[g:ResultHostpitalList] (문경시)[v:geo.SearchTerm]의 (병원)[v:HospitalDiv:one]")
+  last-modified (1694047891527)
+}

@@ -1,0 +1,4 @@
+train (t-dsicd6le2exef567qrg2bqryn) {
+  utterance ("[g:ResultHostpitalList] (내 근처)[v:Near:Near]의 (서울시)[v:geo.SearchTerm] 모든 (종합병원)[v:HospitalDiv:jong]을 다 찾아")
+  last-modified (1693989674146)
+}

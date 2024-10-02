@@ -1,0 +1,16 @@
+train (t-6qshavn9iiygi74c28j2o31yc) {
+  utterance ("[g:ResultHostpitalList] (기흥구)[v:geo.SearchTerm] (가까운)[v:Near:Near] (치과)[v:HospitalDiv:ci] 찾아줘")
+  last-modified (1690783810614)
+}
+train (t-69igvt7frxwlsxkeuyuxi123j) {
+  utterance ("[g:ResultHostpitalList] (종로구)[v:geo.SearchTerm]")
+  last-modified (1690859171220)
+}
+train (t-6hlvjmo2pbe0bxskjdolb6x6p) {
+  utterance ("[g:ResultHostpitalList] (미추홀구)[v:geo.SearchTerm] (근처)[v:Near:Near] (한의원)[v:HospitalDiv:han] 찾아줘")
+  last-modified (1692320301296)
+}
+train (t-6s5lbufp962sllq0l0qe5mz67) {
+  utterance ("[g:ResultHostpitalList] (미추홀구)[v:geo.SearchTerm] (한의원)[v:HospitalDiv:han] 보여줘")
+  last-modified (1692320502588)
+}

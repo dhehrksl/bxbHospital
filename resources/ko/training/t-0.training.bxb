@@ -1,0 +1,20 @@
+train (t-0jm4qoj2a5tc5l3fb8nki28lu) {
+  utterance ("[g:ResultHostpitalList] (종로구)[v:geo.SearchTerm] (병원)[v:HospitalDiv:one] 찾아줘")
+  last-modified (1690859018669)
+}
+train (t-0cegx2qlwtdvhthhwzgsiks1h) {
+  utterance ("[g:ResultHostpitalList] (강서구)[v:geo.SearchTerm]에서의 모든 (종합병원)[v:HospitalDiv:jong]은 다 찾아줘")
+  last-modified (1693989891770)
+}
+train (t-0hlguo0k6q2vosx1ig3zyis11) {
+  utterance ("[g:ResultHostpitalList] (사하구)[v:geo.SearchTerm]의 (병원)[v:HospitalDiv:one] 보여줘")
+  last-modified (1694050200951)
+}
+train (t-0hdx1gqk5w7m2uy8cs02hu4xc) {
+  utterance ("[g:ResultHostpitalList] (미추홀구)[v:geo.SearchTerm]의 (주변)[v:Near:Near]에서 (병원)[v:HospitalDiv:one]들 찾아줘")
+  last-modified (1694051134400)
+}
+train (t-0rim9on9ldgnq4nehvsput6qn) {
+  utterance ("[g:ResultHostpitalList] (상당구)[v:geo.SearchTerm]의 (한의원)[v:HospitalDiv:han] 보여줘")
+  last-modified (1694055015421)
+}

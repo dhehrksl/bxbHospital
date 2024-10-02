@@ -1,0 +1,9 @@
+structure (MyPosition) {
+
+  description ("나의 위치를 위도 경도로 가져와서 보여주기")
+
+  property (myPos) {
+    type (MyPos)
+    min (Required) max (One)
+  }
+}

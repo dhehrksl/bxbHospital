@@ -1,0 +1,4 @@
+train (t-ej8xuhvov52duaeosxefa9bx5) {
+  utterance ("[g:ResultHostpitalList] (파주시)[v:geo.SearchTerm]에 (병원)[v:HospitalDiv:one]들 보여줘")
+  last-modified (1694053921895)
+}

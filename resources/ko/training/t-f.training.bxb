@@ -1,0 +1,24 @@
+train (t-fh22s34pzpqqbjdtnyrqlvzv9) {
+  utterance ("[g:ResultHostpitalList] (보령시)[v:geo.SearchTerm] (근처)[v:Near:Near] (치과)[v:HospitalDiv:ci] 어딨어?")
+  last-modified (1690786292970)
+}
+train (t-fk6sp0onq6rfn5urbqvfcx11i) {
+  utterance ("[g:ResultHostpitalList] (천안시)[v:geo.SearchTerm] (종합병원)[v:HospitalDiv:jong] 보여줘")
+  last-modified (1690960722276)
+}
+train (t-ffdmdzfpsxsrw9ohpxssw7sjz) {
+  utterance ("[g:ResultHostpitalList] (중랑구)[v:geo.SearchTerm] 피부과")
+  last-modified (1692003665304)
+}
+train (t-feceyd4zzrmya8akx14mw87o4) {
+  utterance ("[g:ResultHostpitalList] (미추홀구)[v:geo.SearchTerm] (한의원)[v:HospitalDiv:han]")
+  last-modified (1692320469399)
+}
+train (t-fwsj9t6409y9epx45122pxqot) {
+  utterance ("[g:ResultHostpitalList] (금천구)[v:geo.SearchTerm] (근처)[v:Near:Near]의 모든 (종합병원)[v:HospitalDiv:jong]들 전부 다 찾아주라")
+  last-modified (1693989580249)
+}
+train (t-f1q683tuh0e90i87dtnknwg2x) {
+  utterance ("[g:ResultHostpitalList] (서구)[v:geo.SearchTerm]에 있는 (내 근처)[v:Near:Near]에 모든 (요양병원)[v:HospitalDiv:yo]은")
+  last-modified (1693990042719)
+}

@@ -1,0 +1,8 @@
+train (t-3kj48b539oar9o4opr6m3vb68) {
+  utterance ("[g:ResultHostpitalList] (영통구)[v:geo.SearchTerm] 찾아줘")
+  last-modified (1689829540292)
+}
+train (t-3mo73egscaxopwc70twnovtt1) {
+  utterance ("[g:ResultHostpitalList] (근처)[v:Near:Near]의 (병원)[v:HospitalDiv:one]들 보여줘")
+  last-modified (1694048018236)
+}

@@ -1,0 +1,12 @@
+train (t-t3fzow8puwp7ob2scf4s9upuw) {
+  utterance ("[g:ResultHostpitalList] (치과)[v:HospitalDiv:ci]")
+  last-modified (1690521784712)
+}
+train (t-tz43fqhhanfpcgukfxv4f7vsc) {
+  utterance ("[g:ResultHostpitalList] (성산구)[v:geo.SearchTerm]에서 있는 (한의원)[v:HospitalDiv:han]은 어디야")
+  last-modified (1693989225737)
+}
+train (t-t5o16qjvha5jwfnh0ifg6i0ap) {
+  utterance ("[g:ResultHostpitalList] (상주시)[v:geo.SearchTerm]에서의 모든 (한의원)[v:HospitalDiv:han]들")
+  last-modified (1694048367462)
+}

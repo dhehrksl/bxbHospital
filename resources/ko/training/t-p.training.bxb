@@ -1,0 +1,16 @@
+train (t-passjjx5sl3gkccz8clcyhozi) {
+  utterance ("[g:ResultHostpitalList] (근처)[v:Near:Near] (도봉구)[v:geo.SearchTerm] (요양병원)[v:HospitalDiv:yo] 있어?")
+  last-modified (1690521960002)
+}
+train (t-pqww20hqsiff0aeca5er86mdd) {
+  utterance ("[g:ResultHostpitalList] (해운대구)[v:geo.SearchTerm] (주변)[v:Near:Near] (치과)[v:HospitalDiv:ci] 찾아줘")
+  last-modified (1691045676642)
+}
+train (t-ph97fdjwa8a75etsr4k1wzxye) {
+  utterance ("[g:ResultHostpitalList] (동안구)[v:geo.SearchTerm]에서 있는 (한의원)[v:HospitalDiv:han]들 전부 다 표시해줘")
+  last-modified (1693989192168)
+}
+train (t-putbzh5yy5d0ov97axc818q3m) {
+  utterance ("[g:ResultHostpitalList] (기흥구)[v:geo.SearchTerm]의 (근방)[v:Near:Near] 있는 전체 (한의원)[v:HospitalDiv:han]들은 전부 다 보여줘라")
+  last-modified (1693989225737)
+}

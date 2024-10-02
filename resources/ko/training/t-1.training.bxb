@@ -1,0 +1,4 @@
+train (t-1wuc5sjsiyhr2z3zbfripazfp) {
+  utterance ("[g:ResultHostpitalList] (미추홀구)[v:geo.SearchTerm]에서의 (내 근처)[v:Near:Near] 모든 (종합병원)[v:HospitalDiv:jong]들을 다 찾아줘")
+  last-modified (1693990341799)
+}

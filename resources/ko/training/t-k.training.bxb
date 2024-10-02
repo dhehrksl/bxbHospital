@@ -1,0 +1,8 @@
+train (t-ka03m90n3uq0jc64mx6pu5otp) {
+  utterance ("[g:ResultHostpitalList] (서대문구)[v:geo.SearchTerm] 궁금해")
+  last-modified (1692170487735)
+}
+train (t-kqgyw526t6xa5bhf2w337ukka) {
+  utterance ("[g:ResultHostpitalList] (미추홀구)[v:geo.SearchTerm]에서 (병원)[v:HospitalDiv:one]들 찾아줘")
+  last-modified (1694051087337)
+}

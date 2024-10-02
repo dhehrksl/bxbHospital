@@ -1,0 +1,20 @@
+train (t-skde1tbhbhmxoufd7cdalrvr9) {
+  utterance ("[g:ResultHostpitalList] (중랑구)[v:geo.SearchTerm]")
+  last-modified (1690508650251)
+}
+train (t-sfvzhbiyw9515mbqhln7babcv) {
+  utterance ("[g:ResultHostpitalList] (내 주변)[v:Near:Near] (중랑구)[v:geo.SearchTerm] (한의원)[v:HospitalDiv:han] 어딨어")
+  last-modified (1690521625918)
+}
+train (t-saih2mhtpalfq3pa5inigqk7l) {
+  utterance ("[g:ResultHostpitalList] (달서구)[v:geo.SearchTerm] (종합병원)[v:HospitalDiv:jong] 있나?")
+  last-modified (1690780747718)
+}
+train (t-skuqw1hxu04ey7plbxo8pvhra) {
+  utterance ("[g:ResultHostpitalList] (보령시)[v:geo.SearchTerm]의 모든 (한의원)[v:HospitalDiv:han] 보고싶어")
+  last-modified (1693989123727)
+}
+train (t-swwemy302bfq5vakwao56rqq1) {
+  utterance ("[g:ResultHostpitalList] (나주시)[v:geo.SearchTerm]의 안에 있는 (근방)[v:Near:Near]의 전체 (한의원)[v:HospitalDiv:han]들 전부 다 알려주라")
+  last-modified (1693989192168)
+}

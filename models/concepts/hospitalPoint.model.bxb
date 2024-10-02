@@ -1,0 +1,3 @@
+text (hospitalPoint) {
+  description ("병원 위치")
+}

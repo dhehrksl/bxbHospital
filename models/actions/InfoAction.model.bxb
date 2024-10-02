@@ -1,0 +1,99 @@
+action (InfoAction) {
+  description ("정보를 불러옴")
+  type(Search)
+  collect {
+    input (Info) {
+      type (Info)
+      min (Optional) max (One)
+    }
+    input (HospitalName){
+      type (HospitalName)
+      min (Optional) max(One)
+    }
+    
+    input (DutyTime1c) {
+      type (DutyTime1c)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime2c) {
+      type (DutyTime2c)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime3c) {
+      type (DutyTime3c)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime4c) {
+      type (DutyTime4c)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime5c) {
+      type (DutyTime5c)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime6c) {
+      type (DutyTime6c)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime7c) {
+      type (DutyTime7c)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime8c) {
+      type (DutyTime8c)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime1s) {
+      type (DutyTime1s)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime2s) {
+      type (DutyTime2s)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime3s) {
+      type (DutyTime3s)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime4s) {
+      type (DutyTime4s)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime5s) {
+      type (DutyTime5s)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime6s) {
+      type (DutyTime6s)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime7s) {
+      type (DutyTime7s)
+      min (Optional) max (One)
+    }
+    
+    input (DutyTime8s) {
+      type (DutyTime8s)
+      min (Optional) max (One)
+    }
+    input (HospitalSelect){
+      type (HospitalSelect)
+      min (Optional)max (One)
+    }
+  }
+  output (InfoResult)
+}

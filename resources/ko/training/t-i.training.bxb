@@ -1,0 +1,8 @@
+train (t-i1lxu1ljaihaygfg90b9oxftq) {
+  utterance ("[g:ResultHostpitalList] (노원구)[v:geo.SearchTerm] 궁금해")
+  last-modified (1691742378677)
+}
+train (t-i0nyg8ixgfez3o685lt8mbrig) {
+  utterance ("[g:ResultHostpitalList] (하남시)[v:geo.SearchTerm] 알아봐줘")
+  last-modified (1691742441635)
+}

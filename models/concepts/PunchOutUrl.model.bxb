@@ -1,0 +1,3 @@
+text(PunchOutUrl) {
+  description ("펀치아웃하는 URL")
+}

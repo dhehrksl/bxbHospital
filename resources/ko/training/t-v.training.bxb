@@ -1,0 +1,36 @@
+train (t-vef6oco3ccrhdre3z9q84bv2c) {
+  utterance ("[g:ResultHostpitalList] (목포시)[v:geo.SearchTerm] (종합병원)[v:HospitalDiv:jong] 다보여줘")
+  last-modified (1691046504652)
+}
+train (t-vh0c3ujylrpfd07frs718jtgv) {
+  utterance ("[g:ResultHostpitalList] (노원구)[v:geo.SearchTerm] 확인")
+  last-modified (1691742347200)
+}
+train (t-vnul3qginwf9inyhjmkh6xruh) {
+  utterance ("[g:ResultHostpitalList] (강원도)[v:geo.SearchTerm] (근처)[v:Near:Near] (종합병원)[v:HospitalDiv:jong] 보여줘")
+  last-modified (1692321137043)
+}
+train (t-v0nabirfn7ozsnwj9850j14vw) {
+  utterance ("[g:ResultHostpitalList] (마포구)[v:geo.SearchTerm] 알고싶어")
+  last-modified (1692334950960)
+}
+train (t-vub004al59gsmg9y4x0xwbpi0) {
+  utterance ("[g:ResultHostpitalList] (강원특별자치도)[v:geo.SearchTerm] (근처)[v:Near:Near] (한의원)[v:HospitalDiv:han] 찾아줘")
+  last-modified (1692928515055)
+}
+train (t-v7yifcfy1sfei5xf3q3ds86xf) {
+  utterance ("[g:ResultHostpitalList] (강서구)[v:geo.SearchTerm]에서의 모든 (종합병원)[v:HospitalDiv:jong]은 다 찾아줘")
+  last-modified (1693989482726)
+}
+train (t-v1ki3xg18gyokj7ena1tx2wsp) {
+  utterance ("[g:ResultHostpitalList] (내 주변)[v:Near:Near]의 (분당구)[v:geo.SearchTerm] (병원)[v:HospitalDiv:one]들을 보여줘")
+  last-modified (1693989674146)
+}
+train (t-vyhmub7qddnsbm94c4218jx09) {
+  utterance ("[g:ResultHostpitalList] (사상구)[v:geo.SearchTerm]에 있는 (내 근처)[v:Near:Near]에 모든 (병원)[v:HospitalDiv:one]들을 다 보고싶어")
+  last-modified (1693989891770)
+}
+train (t-vuzmxfmbjs8x92zo3tv2of08d) {
+  utterance ("[g:ResultHostpitalList] (내근처)[v:Near:Near] (병원)[v:HospitalDiv:one]들 리스트 다 보여줘")
+  last-modified (1694056828537)
+}

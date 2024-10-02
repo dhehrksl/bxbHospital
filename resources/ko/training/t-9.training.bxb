@@ -1,0 +1,4 @@
+train (t-9kmd0pmbimwmqyd0ssaylmvbb) {
+  utterance ("[g:ResultHostpitalList] (아산시)[v:geo.SearchTerm]안에 전체 (치과)[v:HospitalDiv:ci]들을 켜줘")
+  last-modified (1693989209330)
+}

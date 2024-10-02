@@ -1,0 +1,116 @@
+action (ShowHospitalList) {
+  description ("병원 리스트를 가져온다.")
+  type (Constructor)
+  
+  collect {
+    input (locationName) {
+      type (geo.NamedPoint)
+      min (Optional) max (One)
+      
+      order (2)
+      validate {
+        if (!exists(locationName) && exists(myPosition)) {
+          replan {
+            intent {
+              goal : geo.GeocodedAddress
+              route: geo.CurrentLocation
+            }
+          }
+        }
+        // if(!exists(locationName.name) && exists(HospitalDiv) && exists(Near)){
+        //   replan {
+        //     dialog {
+        //       template ("잘못되었습니다. 정확한 주소를 입력해주세요.")
+        //     }
+        //   }
+        // }
+      }
+    }
+    input (Namedlocation){
+      type (Namedlocation)
+      min (Optional) max (One)
+    }
+    
+    input (Near) {
+      type (Near)
+      min (Optional) max (One)
+    }
+    input (HospitalPoint){
+      type (HospitalPoint)
+      min(Optional) max(One)
+    }
+    input (DutyTel1){
+      type (DutyTel1)
+      min(Optional) max(One)
+    }
+    
+    input (HospitalDiv){
+      type (HospitalDiv)
+      min(Optional) max (One)
+    }
+    input (HospitalDivs){
+      type (HospitalDivs)
+      min(Optional) max (One)
+    }
+    
+    input (Maindistance){
+      type (Maindistance)
+      min(Optional) max(One)
+    }
+    input (Nears){
+      type (Nears)
+      min(Optional) max(One)
+    }
+    
+    input (Firstaddress){
+      type (Firstaddress)
+      min(Optional) max(One)
+    }
+    
+    computed-input (myPosition) {
+      order (1)
+      type (MyPosition)
+      min (Required) max (One)
+      compute {
+        intent {
+          goal: MyPosition
+          route: GetCurrentPosition
+        }
+      }
+    }
+  }
+  
+  output (ResultHostpitalList) {
+    throws {
+      error (NoResult) {
+        on-catch {
+          halt {
+            dialog {
+              template ("검색 결과가 없습니다.")
+            }
+          }
+        }
+      }
+      error (NoMatchdiv) {
+        on-catch {
+          halt {
+            dialog {
+              template ("지역명이 없습니다. 시 또는 구 또는 특별자치도 포함 다시 입력해주세요 .")
+            }
+          }
+        }
+      }
+      error (Nodonggu){
+        on-catch {
+          halt {
+            dialog {
+              template ("시 또는 구 또는 특별자치도 포함 검색해주세요.")
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

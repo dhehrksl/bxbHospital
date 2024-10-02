@@ -1,0 +1,8 @@
+train (t-opbvkv97yd6mgst4hjjlrknl8) {
+  utterance ("[g:ResultHostpitalList] (부산시)[v:geo.SearchTerm]의 모든 (종합병원)[v:HospitalDiv:jong]을 찾고싶어")
+  last-modified (1693989482726)
+}
+  train (t-omrb5z27gr1tbrvt3mboq7krm) {
+  utterance ("[g:ResultHostpitalList] (천안시)[v:geo.SearchTerm]의 (종합병원)[v:HospitalDiv:jong]들 다 찾을래")
+  last-modified (1694047566790)
+}

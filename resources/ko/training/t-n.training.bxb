@@ -1,0 +1,8 @@
+train (t-njcvylw0my8gq07hzjptpu49c) {
+  utterance ("[g:ResultHostpitalList] (구로구)[v:geo.SearchTerm] (근처)[v:Near:Near] (한의원)[v:HospitalDiv:han] 찾아봐")
+  last-modified (1690528646484)
+}
+train (t-nrnrgwlqusy8wz8b69631yql2) {
+  utterance ("[g:ResultHostpitalList] (부천시)[v:geo.SearchTerm] (치과)[v:HospitalDiv:ci] 보여줘")
+  last-modified (1690780895791)
+}

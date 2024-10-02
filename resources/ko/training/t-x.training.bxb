@@ -1,0 +1,12 @@
+train (t-xvgcm2nvn2ae65p7i4q2pi9rg) {
+  utterance ("[g:ResultHostpitalList] (속초시)[v:geo.SearchTerm] (근처)[v:Near:Near]에 있는 (종합병원)[v:HospitalDiv:jong]들 좀 찾아봐줄래")
+  last-modified (1690785980718)
+}
+train (t-xmook18d8tuneyle2hrooynu3) {
+  utterance ("[g:ResultHostpitalList] (광양시)[v:geo.SearchTerm] (근처)[v:Near:Near] (요양병원)[v:HospitalDiv:yo]은?")
+  last-modified (1691046570221)
+}
+train (t-xqe4hgeib3inp4xdsiggjpzlf) {
+  utterance ("[g:ResultHostpitalList] (문경시)[v:geo.SearchTerm]에서의 (병원)[v:HospitalDiv:one]들")
+  last-modified (1694048104711)
+}

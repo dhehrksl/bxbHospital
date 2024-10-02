@@ -1,0 +1,20 @@
+train (t-wbt6w2q2czu7l43r318l7t0sf) {
+  utterance ("[g:ResultHostpitalList] (하남시)[v:geo.SearchTerm] 알아봐줘")
+  last-modified (1692170515148)
+}
+train (t-wzk6144q52zo57tnhqczg2axa) {
+  utterance ("[g:ResultHostpitalList] (충주시)[v:geo.SearchTerm]안쪽에 있는 전체 (한의원)[v:HospitalDiv:han]들 다 보여주면 좋겠어")
+  last-modified (1693989192168)
+}
+train (t-wmdpbb0o21v7g57j1rm9zsfws) {
+  utterance ("[g:ResultHostpitalList] (군산시)[v:geo.SearchTerm]쪽에 있는 (한의원)[v:HospitalDiv:han]들 전체 다 보여주라")
+  last-modified (1693989192168)
+}
+train (t-wg6ihzaw53rmf3o186mgxcztx) {
+  utterance ("[g:ResultHostpitalList] (내 주변)[v:Near:Near]에서 가장 (가까운)[v:Near:Near] (분당구)[v:geo.SearchTerm] (병원)[v:HospitalDiv:one]들을 보여줘")
+  last-modified (1693990931186)
+}
+train (t-w34o8bxlbw5xbg29epbrw1jq0) {
+  utterance ("[g:ResultHostpitalList] (영천시)[v:geo.SearchTerm]의 (근처)[v:Near:Near] 모든 (병원)[v:HospitalDiv:one]들")
+  last-modified (1694048152149)
+}

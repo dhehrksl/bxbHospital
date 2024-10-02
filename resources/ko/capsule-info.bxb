@@ -1,0 +1,30 @@
+capsule-info {
+  display-name (병원 찾기)
+  developer-name (사자다리)
+  description ("병원 찾기는 병원 정보 위치를 제공합니다. 또한 OO구, OO시, OO특별자치도 로만 검색이 가능하며, OO구,OO시에 있는 병원들과 종합병원, 병원, 한의원, 치과, 요양병원 검색이 가능합니다. 병원 검색 시 모든 병의원이 나옵니다.")
+  dispatch-name (병원 찾기)
+  icon-asset (images/icons/help4.png)
+  website-url (https://sajadari.github.io)
+  requested-permissions{
+    
+    permission (device-location-access){
+      justification ("위치권한필요")
+    }
+    permission (self:profile){
+      justification ("이름에 대한 권한")
+    }
+  }
+  dispatch-aliases{
+
+  }
+  
+  search-keywords{
+    keyword (전국병원)
+    keyword (전국)
+    keyword (국병)
+    keyword (병원)
+    keyword (위치)
+    keyword (지역)
+    keyword (찾기)
+  }
+}

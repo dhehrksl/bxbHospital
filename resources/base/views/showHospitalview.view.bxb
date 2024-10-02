@@ -1,0 +1,299 @@
+result-view {
+  match : ResultHostpitalList(ResultHostpitalList)
+  
+  message {
+    if (size(ResultHostpitalList) == 0) {
+      template ("검색된 병원이 없습니다.")
+    }else {
+      if(size(ResultHostpitalList) > 1){
+        if(!exists(ResultHostpitalList.Namedlocation)){
+          template ("[#{value(ResultHostpitalList.Firstaddress[1])}] 병원 리스트입니다.")
+        }else{
+          template ("[#{value(ResultHostpitalList.Namedlocation[1])}] 병원 리스트입니다.")
+        }
+      }
+      template ("[#{value(ResultHostpitalList.HospitalName)}] 정보입니다.")
+    }
+  }
+  
+  
+  render {
+    if (size(ResultHostpitalList) == 1) {
+      layout {
+        section {
+          content {
+            if(exists(ResultHostpitalList.Nears)){
+              map-card {
+                aspect-ratio (16:9)
+                markers {
+                  marker {
+                    geo (ResultHostpitalList.HospitalPoint)
+                  }
+                }
+                on-click {
+                  intent {
+                    goal : MapPunchOut
+                    value : $expr(ResultHostpitalList.HospitalPoint)
+                    value : $expr(ResultHostpitalList.HospitalAddr)
+                  }
+                }
+                title-area {
+                  halign (Start)
+                  slot1 {
+                    paragraph {
+                      style (Title_XS)
+                      value ("#{value(ResultHostpitalList.HospitalAddr)}")
+                    }
+                  }
+                  slot2 {
+                    paragraph{
+                      style(Title_XS)
+                      value("현재위치 기준 #{value(ResultHostpitalList.Nears)} km 입니다")
+                    }
+                  }
+                }
+              }
+              input-cell {
+                label {template ("병원종류")}
+                value {template ("#{value(ResultHostpitalList.HospitalSelect)}")}
+                on-click {
+                  intent {
+                    goal: ResultHostpitalList
+                    value: $expr(ResultHostpitalList)
+                  }
+                }
+              }
+              input-cell {
+                label {template ("전화번호")}
+                value {template ("#{value(ResultHostpitalList.DutyTel1)}")}
+                on-click {
+                  intent {
+                    goal: TelPunchOut
+                    value : $expr(ResultHostpitalList.DutyTel1)
+                  }
+                }
+              }
+              
+              if(size(ResultHostpitalList.Info)==1){
+                input-cell {
+                  label {template ("상세정보")}
+                  value {template ("#{value('병원 상세정보 및 영업시간 확인')}")}
+                  on-click {
+                    intent {
+                      goal: InfoAction
+                      value : $expr(ResultHostpitalList.HospitalName)
+                      value : $expr(ResultHostpitalList.Info)
+                      value : $expr(ResultHostpitalList.DutyTime1c)
+                      value : $expr(ResultHostpitalList.DutyTime2c)
+                      value : $expr(ResultHostpitalList.DutyTime3c)
+                      value : $expr(ResultHostpitalList.DutyTime4c)
+                      value : $expr(ResultHostpitalList.DutyTime5c)
+                      value : $expr(ResultHostpitalList.DutyTime6c)
+                      value : $expr(ResultHostpitalList.DutyTime7c)
+                      value : $expr(ResultHostpitalList.DutyTime8c)
+                      value : $expr(ResultHostpitalList.DutyTime1s)
+                      value : $expr(ResultHostpitalList.DutyTime2s)
+                      value : $expr(ResultHostpitalList.DutyTime3s)
+                      value : $expr(ResultHostpitalList.DutyTime4s)
+                      value : $expr(ResultHostpitalList.DutyTime5s)
+                      value : $expr(ResultHostpitalList.DutyTime6s)
+                      value : $expr(ResultHostpitalList.DutyTime7s)
+                      value : $expr(ResultHostpitalList.DutyTime8s)
+                    }
+                  }
+                }
+              }else{
+                input-cell {
+                  label {template ("영업시간")}
+                  value {template ("#{value('영업시간 확인하기')}")}
+                  on-click {
+                    intent {
+                      goal: InfoAction
+                      value : $expr(ResultHostpitalList.HospitalName)
+                      value : $expr(ResultHostpitalList.Info)
+                      value : $expr(ResultHostpitalList.DutyTime1c)
+                      value : $expr(ResultHostpitalList.DutyTime2c)
+                      value : $expr(ResultHostpitalList.DutyTime3c)
+                      value : $expr(ResultHostpitalList.DutyTime4c)
+                      value : $expr(ResultHostpitalList.DutyTime5c)
+                      value : $expr(ResultHostpitalList.DutyTime6c)
+                      value : $expr(ResultHostpitalList.DutyTime7c)
+                      value : $expr(ResultHostpitalList.DutyTime8c)
+                      value : $expr(ResultHostpitalList.DutyTime1s)
+                      value : $expr(ResultHostpitalList.DutyTime2s)
+                      value : $expr(ResultHostpitalList.DutyTime3s)
+                      value : $expr(ResultHostpitalList.DutyTime4s)
+                      value : $expr(ResultHostpitalList.DutyTime5s)
+                      value : $expr(ResultHostpitalList.DutyTime6s)
+                      value : $expr(ResultHostpitalList.DutyTime7s)
+                      value : $expr(ResultHostpitalList.DutyTime8s)
+                    }
+                  }
+                }
+              }
+            }else{
+              map-card {
+                aspect-ratio (16:9)
+                markers {
+                  marker {
+                    geo (ResultHostpitalList.HospitalPoint)
+                  }
+                }
+                on-click {
+                  intent {
+                    goal : MapPunchOut
+                    value : $expr(ResultHostpitalList.HospitalPoint)
+                    value : $expr(ResultHostpitalList.HospitalAddr)
+                    
+                  }
+                }
+                title-area {
+                  halign (Start)
+                  slot1 {
+                    paragraph {
+                      style (Title_XS)
+                      value ("#{value(ResultHostpitalList.HospitalAddr)}")
+                    }
+                  }
+                  slot2 {
+                    paragraph{
+                      style(Title_XS)
+                      value("시청 기준 #{value(ResultHostpitalList.Maindistance)} km  입니다")
+                    }
+                  }
+                }
+              }
+              input-cell {
+                label {template ("병원종류")}
+                value {template ("#{value(ResultHostpitalList.HospitalSelect)}")}
+                on-click {
+                  intent {
+                    goal: ResultHostpitalList
+                    value: $expr(ResultHostpitalList)
+                  }
+                }
+              }
+              input-cell {
+                label {template ("전화번호")}
+                value {template ("#{value(ResultHostpitalList.DutyTel1)}")}
+                on-click {
+                  intent {
+                    goal: TelPunchOut
+                    value : $expr(ResultHostpitalList.DutyTel1)
+                  }
+                }
+              }
+              if(size(ResultHostpitalList.Info) == 1){
+                input-cell {
+                  label {template ("상세정보")}
+                  value {template ("#{value('병원 상세정보 및 영업시간 확인')}")}
+                  on-click {
+                    intent {
+                      goal: InfoAction
+                      value : $expr(ResultHostpitalList.HospitalName)
+                      value : $expr(ResultHostpitalList.Info)
+                      value : $expr(ResultHostpitalList.DutyTime1c)
+                      value : $expr(ResultHostpitalList.DutyTime2c)
+                      value : $expr(ResultHostpitalList.DutyTime3c)
+                      value : $expr(ResultHostpitalList.DutyTime4c)
+                      value : $expr(ResultHostpitalList.DutyTime5c)
+                      value : $expr(ResultHostpitalList.DutyTime6c)
+                      value : $expr(ResultHostpitalList.DutyTime7c)
+                      value : $expr(ResultHostpitalList.DutyTime8c)
+                      value : $expr(ResultHostpitalList.DutyTime1s)
+                      value : $expr(ResultHostpitalList.DutyTime2s)
+                      value : $expr(ResultHostpitalList.DutyTime3s)
+                      value : $expr(ResultHostpitalList.DutyTime4s)
+                      value : $expr(ResultHostpitalList.DutyTime5s)
+                      value : $expr(ResultHostpitalList.DutyTime6s)
+                      value : $expr(ResultHostpitalList.DutyTime7s)
+                      value : $expr(ResultHostpitalList.DutyTime8s)
+                    }
+                  }
+                }
+              }else{
+                input-cell {
+                  label {template ("영업시간")}
+                  value {template ("#{value('영업시간 확인하기')}")}
+                  on-click {
+                    intent {
+                      goal: InfoAction
+                      if(size(ResultHostpitalList.Info) < 1){
+                        value : $expr(ResultHostpitalList.HospitalName)
+                        value : $expr(ResultHostpitalList.Info)
+                        value : $expr(ResultHostpitalList.DutyTime1c)
+                        value : $expr(ResultHostpitalList.DutyTime2c)
+                        value : $expr(ResultHostpitalList.DutyTime3c)
+                        value : $expr(ResultHostpitalList.DutyTime4c)
+                        value : $expr(ResultHostpitalList.DutyTime5c)
+                        value : $expr(ResultHostpitalList.DutyTime6c)
+                        value : $expr(ResultHostpitalList.DutyTime7c)
+                        value : $expr(ResultHostpitalList.DutyTime8c)
+                        value : $expr(ResultHostpitalList.DutyTime1s)
+                        value : $expr(ResultHostpitalList.DutyTime2s)
+                        value : $expr(ResultHostpitalList.DutyTime3s)
+                        value : $expr(ResultHostpitalList.DutyTime4s)
+                        value : $expr(ResultHostpitalList.DutyTime5s)
+                        value : $expr(ResultHostpitalList.DutyTime6s)
+                        value : $expr(ResultHostpitalList.DutyTime7s)
+                        value : $expr(ResultHostpitalList.DutyTime8s)
+                        
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }else-if (size(ResultHostpitalList) > 1){
+      list-of (ResultHostpitalList){
+        where-each (item){
+          if(exists(item.Nears)){
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("#{value(item.HospitalName)} \n #{value(item.HospitalAddr)}")
+                  }
+                  secondary {
+                    template ("[#{value(item.Nears)}]km")
+                  }
+                  order (PrimarySecondary)
+                }
+              }
+              on-click {
+                intent {
+                  goal: ResultHostpitalList
+                  value: $expr(item)
+                }
+              }
+            }
+          }
+          else{
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("#{value(item.HospitalName)} \n #{value(item.HospitalAddr)}")
+                  }
+                  secondary {
+                    template ("[#{value(item.Maindistance)}]km")
+                  }
+                  order (PrimarySecondary)
+                }
+              }
+              on-click {
+                intent {
+                  goal: ResultHostpitalList
+                  value: $expr(item)
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

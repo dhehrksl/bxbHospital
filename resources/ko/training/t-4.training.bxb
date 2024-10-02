@@ -1,0 +1,16 @@
+train (t-4sypsvagdgdptj71t78sfuy00) {
+  utterance ("[g:ResultHostpitalList] (중랑구)[v:geo.SearchTerm]")
+  last-modified (1690521732783)
+}
+train (t-44q2anuydsv9phm7pzzq0yr15) {
+  utterance ("[g:ResultHostpitalList] (노원구)[v:geo.SearchTerm] 확인")
+  last-modified (1692334971566)
+}
+train (t-47y6pvq9a22wfe9ulf83s9fd3) {
+  utterance ("[g:ResultHostpitalList] (중랑구)[v:geo.SearchTerm]의 (주변)[v:Near:Near]에서 (큰병원)[v:HospitalDiv:jong] 찾아")
+  last-modified (1694046621713)
+}
+train (t-4jkaj2xqtnacbpzxf47dbzmum) {
+  utterance ("[g:ResultHostpitalList] (수성구)[v:geo.SearchTerm]에서 (병원)[v:HospitalDiv:one]찾아줘")
+  last-modified (1694050838556)
+}

@@ -1,0 +1,18 @@
+action (MapPunchOut) {
+  
+  description ("지도 앱 연결")
+  type(Search)
+
+  collect {
+    input (HospitalPoint) {
+      type (HospitalPoint) 
+      min (Optional) max (One)
+    }
+    input (HospitalAddr) {
+      type (HospitalAddr) 
+      min (Optional) max (One)
+    }
+  }
+
+  output (PunchOutUrl)
+}

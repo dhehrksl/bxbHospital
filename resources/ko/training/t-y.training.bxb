@@ -1,0 +1,28 @@
+train (t-yo1kf3xsm1eifmdaq7rzn0hs7) {
+  utterance ("[g:ResultHostpitalList] (노원구)[v:geo.SearchTerm] 안으로 보여줘")
+  last-modified (1689830244443)
+}
+train (t-yhyy454d74qbuq07m9p67du7e) {
+  utterance ("[g:ResultHostpitalList] (종로구)[v:geo.SearchTerm] (근처)[v:Near:Near] (종합병원)[v:HospitalDiv:jong] 어딨어 알려줘")
+  last-modified (1690529990958)
+}
+train (t-yx9fkuy04iuwechw0h8yex0kh) {
+  utterance ("[g:ResultHostpitalList] (남구)[v:geo.SearchTerm] (종합병원)[v:HospitalDiv:jong]")
+  last-modified (1690780803846)
+}
+train (t-ysni0q8xffnvmi7mxsxoxg8nf) {
+  utterance ("[g:ResultHostpitalList] (김해시)[v:geo.SearchTerm] (치과)[v:HospitalDiv:ci] 전부 보여줘")
+  last-modified (1691046722356)
+}
+train (t-ytdnaoyjighq6sxo1bjcj4gyd) {
+  utterance ("[g:ResultHostpitalList] (미추홀구)[v:geo.SearchTerm]")
+  last-modified (1692320396548)
+}
+train (t-yewf42ttdokd3unu2iz2gkwni) {
+  utterance ("[g:ResultHostpitalList] (내근방)[v:Near:Near]의 (청주시)[v:geo.SearchTerm]에서 (큰병원)[v:HospitalDiv:jong] 볼래")
+  last-modified (1694046956104)
+}
+train (t-y7m92nuf1vytovi3fz23za8sp) {
+  utterance ("[g:ResultHostpitalList] (사천시)[v:geo.SearchTerm]에 모든 (병원)[v:HospitalDiv:one]")
+  last-modified (1694048435373)
+}

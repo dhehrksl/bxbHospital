@@ -1,0 +1,26 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetCurrentPosition) {
+      accepted-inputs (point)
+      local-endpoint (getCurrentPosition.js)
+    }
+    action-endpoint (ShowHospitalList) {
+      accepted-inputs (locationName,HospitalDiv,myPosition,Near)
+      local-endpoint (showHospitalList.js)
+    }
+    
+    action-endpoint (MapPunchOut) {
+      accepted-inputs (HospitalPoint, HospitalAddr)
+      local-endpoint (PunchOut.js::MapPunchOut)
+    }
+    action-endpoint (TelPunchOut) {
+      accepted-inputs (DutyTel1)
+      local-endpoint (PunchOut.js::TelPunchOut)
+    }
+        action-endpoint (InfoAction) {
+      accepted-inputs (Info)
+      local-endpoint (infoview.js)
+    }
+  }
+
+}

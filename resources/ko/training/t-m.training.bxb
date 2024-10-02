@@ -1,0 +1,4 @@
+train (t-mz7hurvevevaawqbve26bwdzd) {
+  utterance ("[g:ResultHostpitalList] (천안시)[v:geo.SearchTerm]의 (근방)[v:Near:Near] 있는 전체 (한의원)[v:HospitalDiv:han] 전부 다 알려주라")
+  last-modified (1693989192168)
+}

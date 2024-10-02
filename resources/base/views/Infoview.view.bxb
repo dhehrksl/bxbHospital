@@ -1,0 +1,139 @@
+result-view{
+  match : InfoResult (this)
+  message {
+    template ("#{value(this.HospitalName)}의 영업시간 및 상세정보 입니다.")
+  }
+  render{
+    layout{
+      section{
+        content{
+          compound-card{
+            content{
+              if(exists(this.Info)&& this.Info == 0 ){
+                paragraph {
+                  style(Detail_L)
+                  value{template("상세정보가 없습니다")}
+                }
+              }else{
+                paragraph {
+                  
+                  style(Detail_M)
+                  value("#{value(this.Info)}")
+                }
+              }
+            }
+          }
+          compound-card {
+            content {
+              if(exists(this.DutyTime1s) && exists(this.DutyTime1c)){
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('월요일')} \n #{value(this.DutyTime1s)}　~　#{value(this.DutyTime1c)}\n--------------------------------------")}
+                }
+                
+              }else{
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('월요일은 쉽니다.')}\n--------------------------------------")}
+                }
+              }
+              
+              if(exists(this.DutyTime2s) && exists(this.DutyTime2c)){
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('화요일')} \n #{value(this.DutyTime2s)}　~　#{value(this.DutyTime2c)}\n--------------------------------------")}
+                }
+                
+              }else{
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('화요일은 쉽니다.')}\n--------------------------------------")}
+                }
+              }
+              
+              if(exists(this.DutyTime3s) && exists(this.DutyTime3c)){
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('수요일')} \n #{value(this.DutyTime3s)}　~　#{value(this.DutyTime3c)}\n--------------------------------------")}
+                }
+                
+              }else{
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('수요일은 쉽니다.')}\n--------------------------------------")}
+                }
+              }
+              
+              if(exists(this.DutyTime4s) && exists(this.DutyTime4c)){
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('목요일')} \n #{value(this.DutyTime4s)}　~　#{value(this.DutyTime4c)}\n--------------------------------------")}
+                }
+                
+              }else{
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('목요일은 쉽니다.')}\n--------------------------------------")}
+                }
+              }
+              
+              if(exists(this.DutyTime5s) && exists(this.DutyTime5c)){
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('금요일')} \n #{value(this.DutyTime5s)}　~　#{value(this.DutyTime5c)}\n--------------------------------------")}
+                }
+                
+              }else{
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('금요일은 쉽니다.')}\n--------------------------------------")}
+                }
+              }
+              
+              
+              if(exists(this.DutyTime6s) && exists(this.DutyTime6c)){
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('토요일')} \n #{value(this.DutyTime6s)}　~　#{value(this.DutyTime6c)}\n--------------------------------------")}
+                }
+                
+              }else{
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('토요일은 쉽니다.')}\n--------------------------------------")}
+                }
+              }
+              if(exists(this.DutyTime7s) && exists(this.DutyTime7c)){
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('일요일')} \n #{value(this.DutyTime7s)}　~　#{value(this.DutyTime7c)}\n--------------------------------------")}
+                }
+                
+              }else{
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('일요일은 쉽니다.')}\n--------------------------------------")}
+                }
+              }
+              
+              if(exists(this.DutyTime8s) && exists(this.DutyTime8c)){
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('공휴일')} \n #{value(this.DutyTime8s)}　~　#{value(this.DutyTime8c)}\n--------------------------------------")}
+                }
+                
+              }else{
+                paragraph {
+                  style(Title_XS)
+                  value {template("#{value('공휴일은 쉽니다.')}\n--------------------------------------")}
+                }
+              }
+            }on-click{
+              url ()
+            }
+          }
+        }
+      }
+    }
+  }
+}

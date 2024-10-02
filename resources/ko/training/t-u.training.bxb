@@ -1,0 +1,16 @@
+train (t-uyj1mbzbcu32vpbzjn92sov9s) {
+  utterance ("[g:ResultHostpitalList] (주변)[v:Near:Near] (종합병원)[v:HospitalDiv:jong] (중랑구)[v:geo.SearchTerm] 어디야")
+  last-modified (1690521713503)
+}
+train (t-u9dh2c00gfbmpnq992soer1f2) {
+  utterance ("[g:ResultHostpitalList] (김제시)[v:geo.SearchTerm] (주변)[v:Near:Near] (요양병원)[v:HospitalDiv:yo] 있나")
+  last-modified (1691046450358)
+}
+train (t-uazzkxcfzwpg8ggaij44rn2yn) {
+  utterance ("[g:ResultHostpitalList] (수영구)[v:geo.SearchTerm] (근처)[v:Near:Near] 있는 전체 (한의원)[v:HospitalDiv:han]은 다 보여줘")
+  last-modified (1693989225737)
+}
+train (t-uxvs0ulwbmr6bqf1swxae24mq) {
+  utterance ("[g:ResultHostpitalList] (사상구)[v:geo.SearchTerm] (근방)[v:Near:Near]에서 있는 모든 (종합병원)[v:HospitalDiv:jong]들을 다 찾아서 보여줘")
+  last-modified (1693989674146)
+}

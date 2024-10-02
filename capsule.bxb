@@ -1,0 +1,37 @@
+capsule {
+
+  id (lionbridge.hospitalsearch)
+  version (1.0.7)
+  format (3)
+  
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  capsule-imports {
+    import (viv.geo) {
+      as (geo) version (10.9.12)
+    }
+    import (viv.self) {
+      as (self)
+      version (4.0.25)
+    }
+  }
+  store-sections{
+    section (HealthAndFitness)
+    section (Local)
+  }
+  
+  permissions{
+    device-location-access
+    library-permission (self:profile)
+  }
+  runtime-version (9) {
+    js-runtime-version (2)
+  }
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+}

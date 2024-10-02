@@ -1,0 +1,8 @@
+train (t-2v9d2yh4a4slzjcy7lm3atvga) {
+  utterance ("[g:ResultHostpitalList] (내 주변)[v:Near:Near]에서 (서대문구)[v:geo.SearchTerm] (요양병원)[v:HospitalDiv:yo]을 좀 찾아봐")
+  last-modified (1690524061725)
+}
+train (t-2jlmzxp5dulk7mp8imay23wc7) {
+  utterance ("[g:ResultHostpitalList] (평택시)[v:geo.SearchTerm]에서 (가까운)[v:Near:Near] (한의원)[v:HospitalDiv:han]좀 찾아줄래")
+  last-modified (1690787003182)
+}

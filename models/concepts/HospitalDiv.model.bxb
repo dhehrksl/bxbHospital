@@ -1,0 +1,7 @@
+enum(HospitalDiv) {
+  symbol (han)
+  symbol (jong)
+  symbol (yo)
+  symbol (ci)
+  symbol (one)
+}

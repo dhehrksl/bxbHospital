@@ -1,0 +1,13 @@
+action (TelPunchOut) {
+
+  description ("전화로 연결")
+  type(Search)
+
+  collect {
+    input (DutyTel1) {
+      type (DutyTel1)
+      min (Optional) max (One)
+    }
+  }
+  output (PunchOutUrl)
+}
